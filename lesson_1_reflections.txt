@@ -1,0 +1,56 @@
+How did viewing a diff between two versions help you spot the bug?
+Me ayudo a darme cuenta de las diferencias entre dos versiones mostrandome los segmentos donde estas existian asi se vuelve mas facil spotear el error.
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+   Helped me saving time and be more efficient when looking for errors or bug
+   inside the code.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It will help me see the common mistakes that i make and will help me improve.
+    To reuse code from past versions that might be usefull in the present one.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:
+    - Flexibility
+    - Overall control
+
+    Cons:
+    - Its up to the user to use the commit so it can be forgetful
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	Because there are logical events that affects two or more files in that case is necessary to compare multiple files in the git scenario and in google docs file are treated separately because they are independent of one another.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I can use the command git log to view all the commit versions whithin the repository and the git diff command
+    to compare different versions of files .
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	It makes me more confident because it has my back in case something goes wrong with my code i can always go to
+	past versions and revert my changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try it for android development
+
+Commands:
+
+q |    exit git log!
+git log  |    List the commits and show which files have changed
+git log --stat  |    Show addition information about the commits
+git diff id1 id2  |    Compare two commits
+git clone  |    Create a local copy/clone from the repository
+git config --global color.ui auto |    get colored diff output
+git checkout  |    Shows a previous version of the file. This is not a checkout to edit like in SVN or TFS!
