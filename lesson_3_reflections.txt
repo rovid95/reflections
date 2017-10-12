@@ -1,1 +1,8 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks: Realiza una copia identica de un repositorio (fuente original) hacia el nuestro manteniendo el credito del autor original (solo se realiza dentro de github).
+Clones: Realiza una copia identica de un repositorio desde gitHub hacia nuestra computadora.
+Branches: Son ramificaciones dentro de nuestro repositorio local
